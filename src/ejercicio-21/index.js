@@ -1,1 +1,6 @@
-// Escribe tu código aquí:
+// Agregar al principio:
+
+const fruits = ['apple', 'banana', 'orange']
+fruits.unshift('grape', 'kiwi')
+
+console.log(fruits) 
