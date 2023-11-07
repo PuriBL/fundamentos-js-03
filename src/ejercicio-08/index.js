@@ -1,1 +1,7 @@
-// Escribe tu código aquí:
+// Verificar inclusión:
+
+const phrase = 'JavaScript es divertido'
+const searchTerm = 'divertido'
+const containsTerm = phrase.includes(searchTerm)
+
+console.log(containsTerm) 
